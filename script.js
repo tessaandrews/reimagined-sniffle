@@ -43,15 +43,24 @@ else {
   $(this).addClass("future")
 }
 
-
   })
 
 
-
-
   // TODO: Add code to get any user input that was saved in localStorage and set
+ const input = document.getElementById("input");
+ const save = document.getElementById("save");
+
+ save.addEventListener("click", function() {
+  const data = input.value;
+  console.log(input);
+ })
+
+
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
   //
   // TODO: Add code to display the current date in the header of the page.
+var currentDate = new Date();
+var dateElement = document.getElementById("date");
+dateElement.innerHTML = "Current Date: " + currentDate.toDateString();
 });
