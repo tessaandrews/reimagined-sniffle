@@ -47,14 +47,21 @@ else {
 
 
   // TODO: Add code to get any user input that was saved in localStorage and set
- const input = document.getElementById("input");
- const save = document.getElementById("save");
-
- save.addEventListener("click", function() {
-  const data = input.value;
-  console.log(input);
- })
-
+ 
+$('#hour-9. description').val(localStorage.getItem);
+$('#hour-10. description').val(localStorage.getItem);
+$('#hour-11. description').val(localStorage.getItem);
+$('#hour-12. description').val(localStorage.getItem);
+$('#hour-13. description').val(localStorage.getItem);
+$('#hour-14. description').val(localStorage.getItem);
+$('#hour-15. description').val(localStorage.getItem);
+$('#hour-16. description').val(localStorage.getItem);
+$('#hour-17. description').val(localStorage.getItem);
+$('#hour-18. description').val(localStorage.getItem);
+$('#hour-19. description').val(localStorage.getItem);
+$('#hour-20. description').val(localStorage.getItem);
+$('#hour-21. description').val(localStorage.getItem);
+console.log(localStorage);
 
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
