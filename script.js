@@ -48,20 +48,26 @@ else {
 
   // TODO: Add code to get any user input that was saved in localStorage and set
  
+$('#hour-9. description').val(localStorage.setItem);
+$('#hour-10. description').val(localStorage.setItem);
+$('#hour-11. description').val(localStorage.setItem);
+$('#hour-12. description').val(localStorage.setItem);
+$('#hour-13. description').val(localStorage.setItem);
+$('#hour-14. description').val(localStorage.setItem);
+$('#hour-15. description').val(localStorage.setItem);
+$('#hour-16. description').val(localStorage.setItem);
+$('#hour-17. description').val(localStorage.setItem);
+$('#hour-18. description').val(localStorage.setItem);
+$('#hour-19. description').val(localStorage.setItem);
+$('#hour-20. description').val(localStorage.setItem);
+$('#hour-21. description').val(localStorage.setItem);
+
 $('#hour-9. description').val(localStorage.getItem);
-$('#hour-10. description').val(localStorage.getItem);
-$('#hour-11. description').val(localStorage.getItem);
-$('#hour-12. description').val(localStorage.getItem);
-$('#hour-13. description').val(localStorage.getItem);
-$('#hour-14. description').val(localStorage.getItem);
-$('#hour-15. description').val(localStorage.getItem);
-$('#hour-16. description').val(localStorage.getItem);
-$('#hour-17. description').val(localStorage.getItem);
-$('#hour-18. description').val(localStorage.getItem);
-$('#hour-19. description').val(localStorage.getItem);
-$('#hour-20. description').val(localStorage.getItem);
-$('#hour-21. description').val(localStorage.getItem);
-console.log(localStorage);
+
+() => localStorage.setItem("#hour-9", JSON.stringify(data))
+$('#hour-9. description').val(localStorage.getItem, onclick);
+
+
 
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
