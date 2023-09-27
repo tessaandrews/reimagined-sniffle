@@ -57,15 +57,12 @@ $('#hour-14. description').val(localStorage.setItem);
 $('#hour-15. description').val(localStorage.setItem);
 $('#hour-16. description').val(localStorage.setItem);
 $('#hour-17. description').val(localStorage.setItem);
-$('#hour-18. description').val(localStorage.setItem);
+$('#hour-18').val(localStorage.setItem);
 $('#hour-19. description').val(localStorage.setItem);
 $('#hour-20. description').val(localStorage.setItem);
 $('#hour-21. description').val(localStorage.setItem);
 
-$('#hour-9. description').val(localStorage.getItem);
 
-() => localStorage.setItem("#hour-9", JSON.stringify(data))
-$('#hour-9. description').val(localStorage.getItem, onclick);
 
 
 
